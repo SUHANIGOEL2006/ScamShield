@@ -1,11 +1,5 @@
-function App() {
-  return (
-    <div className="min-h-screen bg-slate-950 text-white flex items-center justify-center">
-      <h1 className="text-5xl font-bold text-green-500">
-        ScamShield 🛡️
-      </h1>
-    </div>
-  );
+import Home from "./pages/Home";
+function App(){
+  return <Home/>;
 }
-
 export default App;
