@@ -1,5 +1,5 @@
 import { ShieldCheck, Lock } from "lucide-react";
-import UrlInput from "./UrlInput";
+import Urlinput from "./Urlinput";
 import HeroIllustration from "./HeroIllustration";
 
 function Hero() {
@@ -51,22 +51,12 @@ function Hero() {
 
         </div>
 
-        {/* URL INPUT */}
-        <div className="mt-16 flex flex-col items-center">
-
-          <div className="w-full max-w-3xl">
-            <UrlInput />
-          </div>
-
-          <div className="mt-5 flex items-center gap-2 text-sm text-slate-400">
-            <Lock size={16} />
-            No URLs are stored. Your privacy comes first.
-          </div>
-
-        </div>
-
+      </div>
+      <div className="mt-10 lg:mt-14">
+        <Urlinput/>
       </div>
     </section>
+    
   );
 }
 
