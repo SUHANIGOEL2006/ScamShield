@@ -1,1 +1,47 @@
 @import "tailwindcss";
+
+/* Floating */
+
+.floating{
+    animation: floating 4s ease-in-out infinite;
+}
+
+@keyframes floating{
+
+0%,100%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-18px);
+
+}
+
+}
+
+/* Slow Rotation */
+
+.animate-spin-slow{
+
+animation:spinSlow 16s linear infinite;
+
+}
+
+@keyframes spinSlow{
+
+from{
+
+transform:rotate(0deg);
+
+}
+
+to{
+
+transform:rotate(360deg);
+
+}
+
+}
