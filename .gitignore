@@ -1,11 +1,25 @@
 # Dependencies
-node_modules
+node_modules/
+
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
 
 # Environment variables
 .env
 
 # Build files
-dist
+dist/
+
+# Machine Learning model
+*.pkl
+
+# Dataset
+*.csv
 
 # OS files
 .DS_Store
